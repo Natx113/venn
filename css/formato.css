@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+:root{
+    --backgorund: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box 0;
+}
+
+.diagramadiv{
+    width: 45%;
+    display: flex;
+    margin: auto;
+    
+    
+   
+}
+.imagen{
+    margin: auto;
+}
+
+.diagramadiv path{
+    fill: rgb(255, 255, 255);
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.diagramadiv :hover{
+    fill: #00FF00
+}
+
+div.botones{
+    display: relative;
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    
+}
+
+.botoness{
+    background-color:#00BFFF ;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 32px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.botones :hover{
+    background-color:#1E90FF ;
+    cursor: pointer;
+}
+
+#formula{
+    
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00bfff;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 15px;
+    
+}
+
+.res{
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    margin-top: 20px;
+    
+    
+}
+
+.hero{
+    
+height: 100vh;
+background-image: var(--backgorund), url('../fondo.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+position: relative;
+}
+
+.subtitulo{
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 35px;
+    margin: 100px;
+}
+
+.hero_wave{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 200px;
+}
+
+.titulo{
+    padding-top: 290px;
+    font-size: 80px;
+}
+
+
+.dformula{
+    width: 27%;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+.botonesd{
+ display: relative;
+ margin: auto;
+ text-align: center;
+ width: 40%;
+ 
+}
+
+.forboton{
+    background-color:white ;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 32px;
+    margin: 10px;
+    border-radius: 10px;
+    border:2px solid #00BFFF ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width: 115px;
+    
+    
+}
+
+.forboton:hover{
+    background-color:#1E90FF;
+    color: white;
+    cursor: pointer;
+}
+
+
+.dbotones{
+    width: 80%;
+    margin: auto;
+}
+
+.tabla
+{
+   border-collapse: collapse;
+   margin: auto;
+   margin-bottom: 70px;
+}
+
+
+.hora{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    text-align: right;
+    padding: 20px;
+    
+   
+}
+
